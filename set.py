@@ -1,3 +1,7 @@
+
+print('hi  \n welcom to set \n \n')
+
+
 fruit= {"apple", "banana", "cherry"}
 print(fruit)
 # output:
@@ -174,11 +178,11 @@ print(fruit)
 # set()
 
 
-# thisset = {"apple", "banana", "cherry"}
+thisset = {"apple", "banana", "cherry"}
 
-# del thisset
+del thisset
 
-# print(thisset) #this will raise an error because the set no longer exists
+print(thisset) #this will raise an error because the set no longer exists
 # output :
 # NameError: name 'thisset' is not defined
 
@@ -187,3 +191,21 @@ set2 = {1, 2, 3}
 
 set3 = set1.union(set2)
 print(set3)
+
+# output :
+# {'banana', 'cherry', 'apple'}
+# banana
+# cherry
+# apple
+# True
+# False
+# {'banana', 'orange', 'cherry', 'apple'}
+# {'mango', 'orange', 'banana', 'grapes', 'cherry', 'apple'}
+# 6
+# {'mango', 'orange', 'grapes', 'cherry', 'apple'}
+# {'cherry', 'apple'}
+# banana
+# {'cherry', 'apple'}
+# set()
+# new :
+# {1, 2, 3, 'b', 'a', 'c'}
